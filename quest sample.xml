@@ -1,0 +1,46 @@
+<quest ID="43" Name="Kill the bitch" instance="true" type="side-quest">
+	<access-condition>
+		<quest-success ID="42" />
+		<level-reached nb="3" />
+	</access-condition>
+	<maps>
+		<map ID="1" map-file-ID="56">
+			<creature-groups>
+				<creature-group xpos="15" ypos="47" movement="immobile">
+					<creature ID="" class="" name="">
+						<item ID="" quantity="" />
+						<gold>100</gold>
+					</creature>
+				</creature-group>
+			</creature-groups>
+			<loots>
+				<item ID="" />
+				<item ID="" />
+			</loots>
+		<map ID="">
+	</maps>
+	<start-conditions start-map="" xpos="" ypos="" team-size-min="" team-size-max="">
+		<dialog ID="" />
+	</start-conditions>
+	<failure>
+		<timeout time="45" />
+		<escape />
+		<death ID="50" type="class" quantity="15"/>
+	</failure>
+	<victory>
+		<and>
+			<death ID="46" type="creature" />
+			<death ID="45" type="class" quantity="15" />
+			<or>
+				<death ID="47" />
+				<death ID="48" />
+			</or>
+		</and>
+	</victory>
+	<rewards>
+		<gold>4500</gold>
+		<item ID="12" quantity="5"></item>
+		<item ID="15" quantity="2-4" />
+		<experience>1000</experience>
+	</rewards>
+</quest>

@@ -1,0 +1,23 @@
+Name: Thieves' den
+Game type: aventure/RPG
+Gameplay: single player
+
+liste des fichiers de données :
+-config.xml
+-Data/Spell/*.xml
+-Data/Map/*.xml
+
+Présentation générale:
+
+-Le jeu se présente sous la forme de deux phases distinctes :
+	-une phase où le joueur est dans sa base
+	-une phase d'exploration du monde ouvert ou de quêtes pouvant ou non se dérouler dans des instances.
+
+-Le joueur crée son personnage principal initialement et peut en recruter d'autres en cours de jeu.
+	-ce personnage a le status de héros et ne peut de ce fait mourir.
+	-les personnages sont soumis à des évenements aléatoires lors de certaines situations telles que les combats, les accomplissements de quêtes, etc.
+	-les personnages ont une jauge d'expérience et peuvent monter en niveau.
+	-les personnages ont une arborescence de classe afin de se spécialiser, mais seuls les héros peuvent atteindre les échelons supérieurs.
+	
+	
+	
